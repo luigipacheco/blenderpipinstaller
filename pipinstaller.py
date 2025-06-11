@@ -1,9 +1,9 @@
 bl_info = {
     "name": "Pip Library Installer",
-    "author": "Luis Pacheco",
+    "author": "Your Name",
     "version": (1, 0, 0),
     "blender": (2, 80, 0),
-    "location": "3D Viewport > Sidebar > Pip Installer",
+    "location": "Text Editor > Sidebar > Pip Installer",
     "description": "Install Python libraries via pip directly in Blender",
     "category": "Development",
 }
@@ -268,7 +268,7 @@ class PIP_OT_upgrade_pip(Operator):
 class PIP_PT_installer_panel(Panel):
     bl_label = "Pip Library Installer"
     bl_idname = "PIP_PT_installer_panel"
-    bl_space_type = 'VIEW_3D'
+    bl_space_type = 'TEXT_EDITOR'
     bl_region_type = 'UI'
     bl_category = "Pip Installer"
     
