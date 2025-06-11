@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Pip Library Installer",
-    "author": "Your Name",
+    "author": "Luis Pacheco",
     "version": (1, 0, 0),
     "blender": (2, 80, 0),
     "location": "Text Editor > Sidebar > Pip Installer",
