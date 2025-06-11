@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "pip_library_installer"
+version = "1.0.0"
+name = "Pip Library Installer"
+tagline = "Install Python libraries via pip directly in Blender"
+maintainer = "Luis Pacheco"
+type = "add-on"
+
+website = "https://www.luigipacheco.com"
+
+blender_version_min = "4.2.0"
+
+license = [
+    "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "Access to Python environment for pip installations"
+network = "Download Python packages from PyPI" 
